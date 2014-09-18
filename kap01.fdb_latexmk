@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1411046484 "kap01.tex" "kap01.pdf" "kap01" 1411046485
+  "/usr/local/texlive/2011/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2011/texmf-var/web2c/pdftex/pdflatex.fmt" 1339012287 3672912 6b82223851ee0129a36081e70c2ed45e ""
+  "/usr/local/texlive/2011/texmf.cnf" 1309707727 572 8f0c01bb2ae534008255cb4bd6c291df ""
+  "/usr/local/texlive/2011/texmf/web2c/texmf.cnf" 1308435046 28899 de5b6197923fb4b60544bc396c3629a4 ""
+  "kap01.aux" 1411046422 1194 723a775960271b8b331b6c401786953c ""
+  "kap01.tex" 1411046483 3519 59e628ee2e8f366bed7ea62f85dddd84 ""
+  (generated)
+  "kap01.pdf"
+  "kap01.log"

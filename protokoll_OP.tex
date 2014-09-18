@@ -14,6 +14,8 @@
 \usepackage{units}
 \usepackage{eurosym}
 \usepackage{syntax}
+\usepackage{graphicx}
+\usepackage{color}
 
 % FORMATIERUNG
 \usepackage[paper=a4paper,left=30mm,right=25mm,top=30mm,bottom=35mm]{geometry}
@@ -21,13 +23,13 @@
 \setlength{\parskip}{1.5mm plus1mm minus1.5mm}
 \addtokomafont{sectioning}{\rmfamily}
 
-%-zusaetzliche Kommandos und Abkuerungen aus externer Datei
+%-zusaetzliche Kommandos und Abkuerzungen aus externer Datei
 \include{command}
 
 \begin{document}
 % Seitennummerierung für Titel, Widmung, Danksagung, Zusammenfassung
 % und Inhaltsverzeichnis werden in roemischen Zahlen gesetzt
-\renewcommand{\thepage}{\roman{page}} % Roman page numbers
+%\renewcommand{\thepage}{\roman{page}} % Roman page numbers
 
 % Titelblatt
 \include{titlepage}
@@ -35,10 +37,10 @@
 
 % Inhalts-, Abbildungs*-, Tabellen*-Verzeichnis
 \tableofcontents
-\newpage
+%\newpage
 
-\renewcommand{\thepage}{\arabic{page}} % Arabic page numbers
-\setcounter{page}{1}
+%\renewcommand{\thepage}{\arabic{page}} % Arabic page numbers
+%\setcounter{page}{1}
 
 % Kapitel
 \include{kap01}

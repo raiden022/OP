@@ -13,7 +13,7 @@ wobei $\theta_0$ die Kalibrierungskonstante ist, die hier zu bestimmen ist.
 Dies geschieht, indem wir experimentell den Wert für $\alpha$ suchen,
 an dem Totalreflexion stattfindet
 und diesen mit dem theoretischen Totalreflexionswinkel $\theta_\text{tot}$ nach
-Gleichung \eqref{eq:totref} über \eqref{eq:kali} Verbindung bringen.
+Gleichung \eqref{eq:totref} über \eqref{eq:kali} in Verbindung bringen.
 
 Um den Totalreflexionswinkel experimentell zu bestimmen, haben wir für verschiedene Wellenlängen von 500nm - 600nm 
 einen großen Winkel zwischen 0 und 90 Grad bzgl. des einfallenden Lichtstrahles abgefahren und die Reflexivität
@@ -50,15 +50,28 @@ der Frequenzabhängigkeit der Permittivität von Glas $\eps_{Glas}(\lambda)$ zusam
 In Abbildung \ref{fig:linreg} sieht man ein Beispiel für den Fit, den wir an allen fünf Kurven durchgeführt haben. In Tabelle \ref{tab:totref} sieht man nun
 die eingestellten Wellenlängen, den theoretischen $\theta_{tot}$ und experimentellen Wert $\alpha_{tot}$  für die Totalreflexion, 
 sowie den errechneten Offset $\theta_{0}$.
+\newpage
 
+\begin{table}\label{tab:totref}
 \begin{tabular}[t]{|l|l|l|l|}
+
 \hline
-$\lambda$ & $\theta_{tot}$ & $\alpha_{tot}$ & $\theta_{0}$ \\
+$\lambda$ [nm]& $\theta_{tot}$ [°] & $\alpha_{tot}$ [°] &$\theta_{0}$ [°] \cellcolor{dunkelgrau} \\
 \hline
-Platz A & Wavetek Mod. 192, 20 MHz & Agilent Technologies DSO1002A\\
-blaue Platine & & 60 MHz, Analog: Philips PM 3305\\
+500 & 43,14 &590,05 &503,77\cellcolor{dunkelgrau}\\
 \hline
-Platz B & HP 8111A, 20 MHz&  Tektronix TDS 2014C, 100 MHz\\
-braune Platine & & \\
+525 & 43,19 &590,10 &503,72\cellcolor{dunkelgrau}\\
 \hline
+550 & 43,23 &590,19 &503,73\cellcolor{dunkelgrau}\\
+\hline
+575 & 43,27 &590,30 &503,76\cellcolor{dunkelgrau}\\
+\hline
+600 & 43,30 &590,19 &503,73\cellcolor{dunkelgrau}\\
+
+
 \end{tabular}
+\end{table}
+
+
+
+Unser Offset den wir nun berücksichtigen werden lautet : $\theta_{0}= (503,74 \pm 0,02) °$

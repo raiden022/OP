@@ -15,6 +15,10 @@ auf 1 springt und bis 90 Grad weiterverläuft.
 Dies ist eine idealisierte Betrachtungsweise. Wir werden im Experiment eine stetige Kurve an der Totalreflexionsstelle sehen
 und versuchen für jeden Messdurchlauf diese Stelle mit 2 Geraden anzufitten.
 
+
+Wie man im Bild xx sehen kann, verschiebt sich die Kurve bei höheren Wellenlängen in Richtung größeren Winkeln, dies hängt mit 
+der Frequenzabhängigkeit der Permitivität von Glas $\eps_{Glas}(\lambda)$ zusammen.
+
 \begin{figure}[h]
     \includegraphics[width=1\textwidth]{linreg-totref-525nm.png}
 	\caption{Gemessene Reflektivität $R$ in Abhängigkeit der zu kalibrierenden Winkelangabe
@@ -23,5 +27,20 @@ und versuchen für jeden Messdurchlauf diese Stelle mit 2 Geraden anzufitten.
 	\label{fig:linreg}
 \end{figure}
 
+Hier sieht man ein Beispiel für den Fit den wir an allen 5 Kurven durchgeführt haben. In der Tabelle xx sehen Sie nun
+die eingestellten Wellenlängen, den theoretischen $\theta_{tot}$ und experimentellen Wert $\alpha_{tot}$  für die Totalreflexion, 
+sowie den errechneten Offset $\theta_{0}$.
+
+\begin{tabular}[t]{|l|l|l|l|}
+\hline
+$\lambda$ & $\theta_{tot}$ & $\alpha_{tot}$ &$\theta_{0}$ \\
+\hline
+Platz A & Wavetek Mod. 192, 20 MHz & Agilent Technologies DSO1002A\\
+blaue Platine & & 60 MHz, Analog: Philips PM 3305\\
+\hline
+Platz B & HP 8111A, 20 MHz&  Tektronix TDS 2014C, 100 MHz\\
+braune Platine & & \\
+\hline
+\end{tabular}
 
 Wir beziehen uns hier auf \eqref{eq:r012}

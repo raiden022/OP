@@ -1,6 +1,19 @@
 \chapter{Auswertung}
 
 \section{Kalibrierung}
+Um den Totalreflexionswinkel zu bestimmen haben wir für verschiedene Wellenlängen von 500nm - 600nm 
+einen großen Winkel zwischen 0 und 90 Grad bzgl des einfallenden Lichtstrahles abgefahren und die Reflexivität
+des Glasprismas unter diesem Winkel gemessen.
+
+Wir erwarten einen stufenförmigen Verlauf wobei die Reflexivität bei 0 anfängt, an dem Totalreflexionswinkel
+auf 1 springt und bis 90 Grad weiterverläuft. 
+
+\begin{equation}
+ \theta_{tot}=arcsin{\sqrt{\frac{\eps_{Luft}}{\eps_{Glas}(\lambda)}}}
+\end{equation}
+
+Dies ist eine idealisierte Betrachtungsweise. Wir werden im Experiment eine stetige Kurve an der Totalreflexionsstelle sehen
+und versuchen für jeden Messdurchlauf diese Stelle mit 2 Geraden anzufitten.
 
 \begin{figure}[h]
     \includegraphics[width=1\textwidth]{linreg-totref-525nm.png}

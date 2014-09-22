@@ -287,6 +287,9 @@ INPUT ./op-aufbau.png
 OUTPUT kap03.aux
 INPUT kap03.tex
 INPUT kap03.tex
+INPUT totalreflexionen.pdf
+INPUT ./totalreflexionen.pdf
+INPUT ./totalreflexionen.pdf
 INPUT linreg-totref-525nm.png
 INPUT ./linreg-totref-525nm.png
 INPUT ./linreg-totref-525nm.png

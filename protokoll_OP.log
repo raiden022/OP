@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  22 SEP 2014 14:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  22 SEP 2014 15:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -791,56 +791,73 @@ Package pdftex.def Info: op-aufbau.png used on input line 3.
 
  (./kap03.tex
 Kapitel 3.
-<linreg-totref-525nm.png, id=46, 760.2804pt x 542.7477pt>
+<totalreflexionen.pdf, id=46, 361.35pt x 252.945pt>
+File: totalreflexionen.pdf Graphic file (type pdf)
+ <use totalreflexionen.pdf>
+Package pdftex.def Info: totalreflexionen.pdf used on input line 29.
+(pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
+
+
+
+] [10 <./totalreflexionen.pdf>]
+<linreg-totref-525nm.png, id=64, 760.2804pt x 542.7477pt>
 File: linreg-totref-525nm.png Graphic file (type png)
 
 <use linreg-totref-525nm.png>
-Package pdftex.def Info: linreg-totref-525nm.png used on input line 6.
+Package pdftex.def Info: linreg-totref-525nm.png used on input line 42.
 (pdftex.def)             Requested size: 441.01773pt x 314.84357pt.
-) [9
 
 
+LaTeX Warning: Reference `tab:totref' on page 11 undefined on input line 50.
+
+) [11
 
  <./linreg-totref-525nm.png>]
 \openout2 = `kap04.aux'.
 
  (./kap04.tex
 Kapitel 4.
-) [10
+) [12
 
 
 
 ]
 \openout2 = `literatur.aux'.
 
- (./literatur.tex
-Kapitel 5.
-) [11
+ (./literatur.tex) [13
 
 
 
-] (./protokoll_OP.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
-(./kap03.aux) (./kap04.aux) (./literatur.aux)) ) 
+] (./protokoll_OP.aux (./titlepage.aux)
+(./kap01.aux) (./kap02.aux) (./kap03.aux) (./kap04.aux) (./literatur.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6111 strings out of 493633
- 86925 string characters out of 3143378
- 172145 words of memory out of 3000000
- 9190 multiletter control sequences out of 15000+200000
+ 6119 strings out of 493633
+ 87079 string characters out of 3143378
+ 172167 words of memory out of 3000000
+ 9197 multiletter control sequences out of 15000+200000
  87145 words of font info for 109 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 47i,13n,47p,348b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-
-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type
-1/public/fourier/fourier-mex.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
-1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2011/texmf-dist/fonts/typ
-e1/public/fourier/fourier-ms.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
-1/adobe/utopia/putb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe
-/utopia/putr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia
-/putri8a.pfb>
-Output written on protokoll_OP.pdf (11 pages, 211851 bytes).
+ 47i,13n,47p,393b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/t
+exlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/t
+exlive/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2011/te
+xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on protokoll_OP.pdf (13 pages, 310875 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

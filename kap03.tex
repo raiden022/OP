@@ -1,39 +1,59 @@
 \chapter{Auswertung}
 
 \section{Kalibrierung}
-Um den Totalreflexionswinkel zu bestimmen haben wir für verschiedene Wellenlängen von 500nm - 600nm 
-einen großen Winkel zwischen 0 und 90 Grad bzgl des einfallenden Lichtstrahles abgefahren und die Reflexivität
+
+Wir messen am Rotationstisch jeweils den Winkel $\alpha$, der mit dem wahren
+Einfallswinkel $\theta$ des Lichts auf die Probe wie folgt zusammenhängt:
+\begin{equation}
+	\alpha = 2 \theta + \theta_0
+\end{equation} \label{eq:kali}
+
+wobei $\theta_0$ die Kalibrierungskonstante ist, die hier zu bestimmen ist.
+
+Dies geschieht, indem wir experimentell den Wert für $\alpha$ suchen,
+an dem Totalreflexion stattfindet
+und diesen mit dem theoretischen Totalreflexionswinkel $\theta_\text{tot}$ nach
+Gleichung \eqref{eq:totref} über \eqref{eq:kali} Verbindung bringen.
+
+Um den Totalreflexionswinkel experimentell zu bestimmen, haben wir für verschiedene Wellenlängen von 500nm - 600nm 
+einen großen Winkel zwischen 0 und 90 Grad bzgl. des einfallenden Lichtstrahles abgefahren und die Reflexivität
 des Glasprismas unter diesem Winkel gemessen.
 
-Wir erwarten einen stufenförmigen Verlauf wobei die Reflexivität bei 0 anfängt, an dem Totalreflexionswinkel
+Wir erwarten einen stufenförmigen Verlauf wobei die Reflektivität bei 0 anfängt, an dem Totalreflexionswinkel
 auf 1 springt und bis 90 Grad weiterverläuft. 
 
-\begin{equation}
- \theta_{tot}=arcsin{\sqrt{\frac{\eps_{Luft}}{\eps_{Glas}(\lambda)}}}
-\end{equation}
-
 Dies ist eine idealisierte Betrachtungsweise. Wir werden im Experiment eine stetige Kurve an der Totalreflexionsstelle sehen
-und versuchen für jeden Messdurchlauf diese Stelle mit 2 Geraden anzufitten.
+und versuchen für jeden Messdurchlauf diese Stelle mit zwei Geraden anzufitten.
 
+\begin{figure}[h]
+    \includegraphics[width=1\textwidth]{totalreflexionen.pdf}
+	\caption{Gemessene Reflektivitäten $R$ in Abhängigkeit der zu kalibrierenden
+	  	   		Winkelangabe des Rotationstisches $2\theta+\theta_0$ bei verschiedenen
+				Wellenlängen $\lambda$ einfallenden Lichts.}
+	\label{fig:totref}
+\end{figure}
 
-Wie man im Bild xx sehen kann, verschiebt sich die Kurve bei höheren Wellenlängen in Richtung größeren Winkeln, dies hängt mit 
-der Frequenzabhängigkeit der Permitivität von Glas $\eps_{Glas}(\lambda)$ zusammen.
+\clearpage
+
+Wie man in Abbildung \ref{fig:totref} sehen kann, verschiebt sich die Kurve bei höheren Wellenlängen in Richtung größeren Winkeln, was mit 
+der Frequenzabhängigkeit der Permittivität von Glas $\eps_{Glas}(\lambda)$ zusammenhängt.
 
 \begin{figure}[h]
     \includegraphics[width=1\textwidth]{linreg-totref-525nm.png}
 	\caption{Gemessene Reflektivität $R$ in Abhängigkeit der zu kalibrierenden Winkelangabe
-				des Rotationstisches $2\theta+\theta_0$. In Rot die linearen Regressionen
+				des Rotationstisches $2\theta+\theta_0$ bei Wellenlänge
+				$\lambda=525\text{nm}$. In Rot die linearen Regressionen
 				zur Bestimmung des Totalreflexionswinkels.}
 	\label{fig:linreg}
 \end{figure}
 
-Hier sieht man ein Beispiel für den Fit den wir an allen 5 Kurven durchgeführt haben. In der Tabelle xx sehen Sie nun
+In Abbildung \ref{fig:linreg} sieht man ein Beispiel für den Fit, den wir an allen fünf Kurven durchgeführt haben. In Tabelle \ref{tab:totref} sieht man nun
 die eingestellten Wellenlängen, den theoretischen $\theta_{tot}$ und experimentellen Wert $\alpha_{tot}$  für die Totalreflexion, 
 sowie den errechneten Offset $\theta_{0}$.
 
 \begin{tabular}[t]{|l|l|l|l|}
 \hline
-$\lambda$ & $\theta_{tot}$ & $\alpha_{tot}$ &$\theta_{0}$ \\
+$\lambda$ & $\theta_{tot}$ & $\alpha_{tot}$ & $\theta_{0}$ \\
 \hline
 Platz A & Wavetek Mod. 192, 20 MHz & Agilent Technologies DSO1002A\\
 blaue Platine & & 60 MHz, Analog: Philips PM 3305\\
@@ -42,5 +62,3 @@ Platz B & HP 8111A, 20 MHz&  Tektronix TDS 2014C, 100 MHz\\
 braune Platine & & \\
 \hline
 \end{tabular}
-
-Wir beziehen uns hier auf \eqref{eq:r012}

@@ -21,7 +21,7 @@ Abbildung \ref{fig:op} illustriert, führen diese nahe der Grenzfläche auch zu di
 senkrechte Anteile des elektrischen Felds mit sich.
 
 \begin{figure}[ht]
-    \includegraphics[width=0.8\textwidth]{op-.pdf}
+    \includegraphics[width=0.7\textwidth]{op-.pdf}
 	\caption{Oberflächenplasmonen in der Grenzschicht zwischen Metall und Luft}
 	\label{fig:op}
 \end{figure}
@@ -34,6 +34,9 @@ geschehen bei Übereinstimmung von sowohl Frequenz $\omega$ als auch Wellenlänge
 $\frac{2\pi}{k}$ des zur Grenzfläche
 parallelen Anteils des Lichts und der Oberflächenplasmonen, also bei Schnittpunkten
 der jeweiligen Dispersionrelationen zwischen $\omega$ und $k$.
+
+Die Anregung von Oberflächenplasmonen zeigt sich dadurch, dass die Reflektivität der
+entsprechenden Oberfläche für das zum Anregen verwendete Licht, deutlich sinkt.
 
 \section{Dispersionsrelationen} \label{sec:disprel}
 
@@ -54,7 +57,7 @@ Wenn Licht mit Einfallswinkel $\theta$ auf eine ebene Grenze des Dielektrikums $
 dann gilt damit für die
 zur Ebene parallele Komponente $k_x$ des Licht--$k$--Vektors
 \begin{equation}	\label{eq:lichtprojdisp}
-	k = \frac{\omega}{c}\sqrt{\eps_i}\sin{\theta}
+	k_x = \frac{\omega}{c}\sqrt{\eps_i}\sin{\theta}
 \end{equation}
 
 \section{Permittivitäten} \label{sec:perm}
@@ -77,35 +80,58 @@ und für Silber haben wir
 	= &-219,945 - 0,0261695\frac{\lambda}{\mathring{A}}
 	+ 3,8559 \sqrt{\frac{\lambda}{\mathring{A}}}
 	+ \frac{4857,2}{\sqrt{\frac{\lambda}{\mathring{A}}}} \\
-	&+ i(7,139 + 0,001656\frac{\lambda}{\mathring{A}}
-	- 0,2129 \sqrt{\frac{\lambda}{\mathring{A}}})
+	&+ i\left(7,139 + 0,001656\frac{\lambda}{\mathring{A}}
+	- 0,2129 \sqrt{\frac{\lambda}{\mathring{A}}}\right)
 	\end{split}
 \end{equation}
 
-\section{} %\label{sec:experimentelle_methoden}
+\section{Plasmonen in einer glatten Silberoberfläche}
 
 Es gibt keine Schnittpunkte der Dispersionsrelationen von Oberflächenplasmonen
 und dem zur Oberfläche parallelen Anteil von Licht bei der Grenzfläche zwischen
 einem Metall und einem Dielektrikum. Daher können auf diese Weise durch auf 
 Metall schräg einfallendes Licht keine Oberflächenplasmonen angeregt werden.
 
-Es gibt jedoch Schnittpunkte zwischen den Dispersionsrelationen des parallelen Anteils
-von Licht in Glas zu einer Grenzfläche zu Silber und von Oberflächenplasmonen in der
-Grenzschicht zwischen Silber und Luft. Dies kann mithilfe des Effekts der
+Es gibt jedoch Schnittpunkte zwischen den Dispersionsrelationen von Licht in Glas
+und von Oberflächenplasmonen in einer Silber-Luft-Grenzfläche.
+Dies kann mithilfe des Effekts der
 frustrierten Totalreflexion für die Anregung von Oberflächenplasmonen durch Licht
 ausgenutzt werden.
 
-Licht wird an einer Grenzfläche von Glas zu Silber totalreflektiert. Auf eine sehr dünne
-Silberschicht folgt eine Grenzfläche zu Luft, an der ein nichtverschwindender Anteil der
-evaneszenten Welle von der Totalreflexion übrig bleibt und Oberflächenplasmonen in
-der Silber-Luft-Grenze anregen. Hier sind also Schnittpunkte der Dispersionsrelationen
-des parallelen Anteils
-von Licht in Glas zur Grenzfläche zu Silber und von Oberflächenplasmonen in der
-Silber-Luft-Grenze gesucht.
+Hierzu wird Licht an einer Grenzfläche von Glas zu einer sehr dünnen Silberschicht,
+auf die Luft folgt, totalreflektiert. An der Grenze vom Silber zur Luft bleibt dann
+ein nichtverschwindender Anteil der
+evaneszenten Welle von der Totalreflexion übrig, der Oberflächenplasmonen in
+der Silber-Luft-Grenze anregen kann. Hierfür sind Schnittpunkte der
+Dispersionsrelationen des parallelen Anteils von Licht in Glas zur Grenzfläche
+zu Silber und von Oberflächenplasmonen in der Silber-Luft-Grenze gesucht.
 
+Der Reflexionskoeffizient an der Glas(0)-Silber(1)-Luft(2)-Schicht für $p$-polarisiertes
+vom Glas aus kommendes Licht ist
+\begin{align}
+	r_{012} &= r_{01} + (1-r_{01})
+	\left( \sum_{n=0}^\infty r_{10}^n\left(r_{12}\exp(2ik_{z_1}d)\right)^{n+1} \right)
+	  (1-r_{10}) \nonumber \\
+	&= \frac{r_{01}+r_{12}\exp(2ik_{z_1}d)}{1+r_{01}r_{12}\exp(2ik_{z_1}d)}
+\end{align}
 
+wobei $d$ die Silberschichtdicke ist und $r_{ik} =
+\frac{\eps_k k_{z_i}-\eps_i k_{z_k}}{\eps_k k_{z_i}+\eps_i k_{z_k}}$ der
+Reflexionskoeffizient an der Grenze von $(i)$ zu $(k)$ ist.
 
-Die Reflektivität an der Glas-Silber-Luft-Schicht ist
-\begin{equation}
-	
-\end{equation}
+Die Reflektivität an der Glas(0)-Silber(1)-Luft(2)-Schicht ist dann $R=|r_{012}|^2$.
+
+\section{Plasmonen in einer gittermodulierten Silberoberfläche}
+
+Oberflächenplasmonen in einer Silberfläche mit in einer Richtung periodisch
+modulierter Oberfläche mit der Gitterkonstanten $a$ haben die Eigenschaft, dass
+ihre $k$-Vektoren in die Richtung der Modulation, die sich um ein ganzzahliges
+Vielfaches des reziproken Gittervektors $\frac{2\pi}a$ unterscheiden, identifiziert
+werden können und daher auch durch die Dispersionsrelation den gleichen Frequenzen
+$\omega$ zugeordnet sind.
+
+Hierdurch erhält man Schnittpunkte der Dispersionsrelationen von Licht in Luft (bzw.
+seiner Projektion auf die Gitteroberfläche) und der Oberflächenplasmonen einer
+periodisch modulierten Silberfläche (unter Anderem durch Verschieben der wurzelförmigen
+Dispersion gewöhnlicher Oberflächenplasmonen nach \eqref{eq:opdisp}
+um $-\frac{2\pi}{a}$).

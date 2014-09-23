@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  23 SEP 2014 18:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  23 SEP 2014 18:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -564,7 +564,7 @@ Package scrkbase Info: You've told me to extend the font selection of the
 \openout2 = `command.aux'.
 
 (./command.tex) (./protokoll_OP.aux (./titlepage.aux) (./kap01.aux)
-(./kap02.aux) (./kap03.aux) (./kap04.aux) (./literatur.aux))
+(./kap02.aux) (./kap03.aux) (./literatur.aux))
 \openout1 = `protokoll_OP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -825,9 +825,24 @@ Kapitel 3.
 <totalreflexionen.pdf, id=46, 361.35pt x 252.945pt>
 File: totalreflexionen.pdf Graphic file (type pdf)
  <use totalreflexionen.pdf>
-Package pdftex.def Info: totalreflexionen.pdf used on input line 28.
+Package pdftex.def Info: totalreflexionen.pdf used on input line 30.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
+<linreg-totref-525nm.png, id=47, 760.2804pt x 542.7477pt>
+File: linreg-totref-525nm.png Graphic file (type png)
+
+<use linreg-totref-525nm.png>
+Package pdftex.def Info: linreg-totref-525nm.png used on input line 38.
+(pdftex.def)             Requested size: 441.01773pt x 314.84357pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 60.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -835,123 +850,101 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] [10 <./totalreflexionen.pdf>]
-<linreg-totref-525nm.png, id=64, 760.2804pt x 542.7477pt>
-File: linreg-totref-525nm.png Graphic file (type png)
-
-<use linreg-totref-525nm.png>
-Package pdftex.def Info: linreg-totref-525nm.png used on input line 41.
-(pdftex.def)             Requested size: 441.01773pt x 314.84357pt.
- [11
-
- <./linreg-totref-525nm.png>]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 59.
-
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
+] [10 <./totalreflexionen.pdf>] [11 <./linreg-totref-525nm.png>]
 <ag-dicken.pdf, id=70, 361.35pt x 252.945pt>
 File: ag-dicken.pdf Graphic file (type pdf)
  <use ag-dicken.pdf>
-Package pdftex.def Info: ag-dicken.pdf used on input line 85.
+Package pdftex.def Info: ag-dicken.pdf used on input line 87.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
- [12 <./ag-dicken.pdf>]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 131.
 
-<feste-ag-dicke.pdf, id=85, 361.35pt x 252.945pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<feste-ag-dicke.pdf, id=71, 361.35pt x 252.945pt>
 File: feste-ag-dicke.pdf Graphic file (type pdf)
  <use feste-ag-dicke.pdf>
-Package pdftex.def Info: feste-ag-dicke.pdf used on input line 132.
+Package pdftex.def Info: feste-ag-dicke.pdf used on input line 136.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
-[13] [14 <./feste-ag-dicke.pdf>] <permi-re.pdf, id=104, 361.35pt x 252.945pt>
+[12
+
+ <./ag-dicken.pdf>] <permi-re.pdf, id=86, 361.35pt x 252.945pt>
 File: permi-re.pdf Graphic file (type pdf)
 
 <use permi-re.pdf>
-Package pdftex.def Info: permi-re.pdf used on input line 157.
+Package pdftex.def Info: permi-re.pdf used on input line 146.
 (pdftex.def)             Requested size: 220.50887pt x 154.35797pt.
- <permi-im.pdf, id=105, 361.35pt x 252.945pt>
+ <permi-im.pdf, id=87, 361.35pt x 252.945pt>
 File: permi-im.pdf Graphic file (type pdf)
 
 <use permi-im.pdf>
-Package pdftex.def Info: permi-im.pdf used on input line 160.
+Package pdftex.def Info: permi-im.pdf used on input line 149.
 (pdftex.def)             Requested size: 220.50887pt x 154.35797pt.
 
-Overfull \hbox (11.81998pt too wide) in paragraph at lines 157--163
+Overfull \hbox (11.81998pt too wide) in paragraph at lines 146--152
 [][] [] 
  []
 
-<glattdisp.pdf, id=106, 361.35pt x 252.945pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13] [14 <./feste-ag-dicke.pdf> <./permi-re.pdf> <./permi-im.pdf>]
+<glattdisp.pdf, id=124, 361.35pt x 252.945pt>
 File: glattdisp.pdf Graphic file (type pdf)
  <use glattdisp.pdf>
-Package pdftex.def Info: glattdisp.pdf used on input line 178.
+Package pdftex.def Info: glattdisp.pdf used on input line 188.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 []\T1/futs/m/n/12 Experimentell be-stimm-te Punk-te und theo-re-ti-scher Ver-la
 uf der
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [15
 
- <./permi-re.pdf> <./permi-im.pdf>] [16 <./glattdisp.pdf>]
-<gitterdisp.pdf, id=140, 361.35pt x 252.945pt>
+ <./glattdisp.pdf>] <gitterdisp.pdf, id=137, 361.35pt x 252.945pt>
 File: gitterdisp.pdf Graphic file (type pdf)
- <use gitterdisp.pdf>
-Package pdftex.def Info: gitterdisp.pdf used on input line 201.
+
+<use gitterdisp.pdf>
+Package pdftex.def Info: gitterdisp.pdf used on input line 211.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 205--205
+Underfull \hbox (badness 2547) in paragraph at lines 215--215
 \T1/futs/m/n/12 dar-ge-stellt ist der Bril-louin-zo-nen-rand er-mit-telt aus de
 r ge-mes-se-nen
  []
 
-) [17
+) [16
 
  <./gitterdisp.pdf>]
-\openout2 = `kap04.aux'.
-
- (./kap04.tex
-Kapitel 4.
-) [18
-
-
-
-]
 \openout2 = `literatur.aux'.
 
- (./literatur.tex) [19
+ (./literatur.tex) [17
 
 
 
-] (./protokoll_OP.aux (./titlepage.aux)
-(./kap01.aux) (./kap02.aux) (./kap03.aux) (./kap04.aux) (./literatur.aux)) ) 
+] (./protokoll_OP.aux
+(./titlepage.aux) (./kap01.aux) (./kap02.aux) (./kap03.aux) (./literatur.aux)) 
+) 
 Here is how much of TeX's memory you used:
- 6421 strings out of 493633
- 91204 string characters out of 3143378
- 176018 words of memory out of 3000000
- 9477 multiletter control sequences out of 15000+200000
+ 6410 strings out of 493633
+ 91082 string characters out of 3143378
+ 175686 words of memory out of 3000000
+ 9473 multiletter control sequences out of 15000+200000
  88036 words of font info for 113 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,14n,47p,412b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/u
-sr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texli
-ve/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2011/
-texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2011/texmf-d
-ist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on protokoll_OP.pdf (19 pages, 866689 bytes).
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/t
+exlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
+011/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on protokoll_OP.pdf (17 pages, 866168 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 176 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

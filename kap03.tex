@@ -14,28 +14,25 @@ an dem Totalreflexion stattfindet
 und diesen mit dem theoretischen Totalreflexionswinkel $\theta_\text{tot}$ nach
 Gleichung \eqref{eq:totref} über \eqref{eq:kali} Verbindung bringen.
 
-Um den Totalreflexionswinkel experimentell zu bestimmen, haben wir für verschiedene Wellenlängen von 500nm - 600nm 
-einen großen Winkel zwischen 0 und 90 Grad bzgl. des einfallenden Lichtstrahles abgefahren und die Reflexivität
-des Glasprismas unter diesem Winkel gemessen.
+Um den Totalreflexionswinkel experimentell zu bestimmen, haben wir für verschiedene
+Wellenlängen von 500nm - 600nm einen großen Winkel zwischen 0 und 90 Grad bezüglich des
+einfallenden Lichtstrahles abgefahren und die Reflexivität des Glasprismas unter
+diesem Winkel gemessen.
 
-Wir erwarten einen stufenförmigen Verlauf wobei die Reflektivität bei 0 anfängt, an dem Totalreflexionswinkel
-auf 1 springt und bis 90 Grad weiterverläuft. 
+Wir erwarten einen stufenförmigen Verlauf wobei die Reflektivität bei 0 anfängt,
+an dem Totalreflexionswinkel auf 1 springt und bis 90 Grad weiterverläuft. 
 
-Dies ist eine idealisierte Betrachtungsweise. Wir werden im Experiment eine stetige Kurve an der Totalreflexionsstelle sehen
+Dies ist eine idealisierte Betrachtungsweise. Wir werden im Experiment eine stetige
+Kurve an der Totalreflexionsstelle sehen
 und versuchen für jeden Messdurchlauf diese Stelle mit zwei Geraden anzufitten.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \includegraphics[width=1\textwidth]{totalreflexionen.pdf}
 	\caption{Gemessene Reflektivitäten $R$ in Abhängigkeit der zu kalibrierenden
 	  	   		Winkelangabe des Rotationstisches $2\theta+\theta_0$ bei verschiedenen
 				Wellenlängen $\lambda$ einfallenden Lichts.}
 	\label{fig:totref}
 \end{figure}
-
-\clearpage
-
-Wie man in Abbildung \ref{fig:totref} sehen kann, verschiebt sich die Kurve bei höheren Wellenlängen in Richtung größeren Winkeln, was mit 
-der Frequenzabhängigkeit der Permittivität von Glas $\eps_{Glas}(\lambda)$ zusammenhängt.
 
 \begin{figure}[h]
     \includegraphics[width=1\textwidth]{linreg-totref-525nm.png}
@@ -46,12 +43,16 @@ der Frequenzabhängigkeit der Permittivität von Glas $\eps_{Glas}(\lambda)$ zusam
 	\label{fig:linreg}
 \end{figure}
 
-In Abbildung \ref{fig:linreg} sieht man ein Beispiel für den Fit, den wir an allen fünf Messkurven durchgeführt haben. In Tabelle \ref{tab:totref} sieht man nun
-die eingestellten Wellenlängen, den theoretischen Wert $\theta_{tot}$ und experimentellen Wert $\alpha_{tot}$ für die Totalreflexion, 
-sowie den errechneten Offset $\theta_{0}$.
-\newpage
+Wie man in Abbildung \ref{fig:totref} sehen kann, verschiebt sich die Kurve bei höheren
+Wellenlängen in Richtung größeren Winkeln, was mit 
+der Frequenzabhängigkeit der Permittivität von Glas $\eps_{Glas}(\lambda)$ zusammenhängt.
 
-\begin{table}
+In Abbildung \ref{fig:linreg} sieht man ein Beispiel für den Fit, den wir an allen fünf
+Messkurven durchgeführt haben. In Tabelle \ref{tab:totref} sieht man nun
+die eingestellten Wellenlängen, den theoretischen Wert $\theta_{tot}$ und experimentellen
+Wert $\alpha_{tot}$ für die Totalreflexion, sowie den errechneten Offset $\theta_{0}$.
+
+\begin{table}[h]
 	\centering
 \begin{tabular}[t]{|l|l|l|l|}
 
@@ -76,6 +77,7 @@ $\lambda$ [nm]& $\theta_\text{tot}$ [°] & $\alpha_\text{tot}$ [°] &$\theta_{0}$ 
 
 Die mittlere Kalibrierungskonstante, die wir ab nun berücksichtigen werden, lautet dann:
 $\theta_{0}= (503,74 \pm 0,02)$°
+\clearpage
 
 \section{Oberflächenplasmonen in glatten Silberfilmen}
 
@@ -119,8 +121,10 @@ d_\text{nom}\text{ [nm]}		&	 d\text{ [nm]}	\\ [0.2ex]
 
 Für größere Schichtdicken weichen die von uns ermittelten Werte zunehmend von Werten, die
 auf den Packungen der Proben standen, ab.
-An den Silberproben waren viele schwarze Flecke zu sehen, die auf eine starke Oxidation der Probe hinweist. Da wir die vierte Gruppe waren,
-die diese Probe verwendet haben, könnte eine starke Verschmutzung die Abweichung der Schichtdicke vom angegebenen Wert erklären. 
+An den Silberproben waren viele schwarze Flecke zu sehen, die auf eine starke Oxidation der
+Probe hinweist. Da wir die vierte Gruppe waren,
+die diese Probe verwendet haben, könnte eine starke Verschmutzung die Abweichung der Schichtdicke
+vom angegebenen Wert erklären. 
 
 \subsection{Permittivität von Silber}
 
@@ -128,7 +132,7 @@ In Abbildung \ref{fig:festeagdicke} sind unsere Messdaten der Reflektivitäten be
 verschiedenen Wellenlängen $\lambda$ des reflektierten Lichts und fester Probendicke
 $d=40$nm dargestellt.
 
-\begin{figure}[]
+\begin{figure}[ht]
     \includegraphics[width=1\textwidth]{feste-ag-dicke.pdf}
 	\caption{Gemessene Reflektivitäten $R$ in Abhängigkeit des Einfallswinkels
 				$\theta$ bei verschiedenen Wellenlängen $\lambda$ einfallenden
@@ -136,7 +140,18 @@ $d=40$nm dargestellt.
 	\label{fig:festeagdicke}
 \end{figure}
 
-\clearpage
+\begin{figure}[h]
+	\subfigure[Realteil der Permittivität]{
+    	\includegraphics[width=0.5\textwidth]{permi-re.pdf}
+	}
+	\subfigure[Imaginärteil der Permittivität]{
+    	\includegraphics[width=0.5\textwidth]{permi-im.pdf}
+	}
+	\caption{Experimentell bestimmte Werte für $\eps_\text{Ag}$ zu verschiedenen
+			Wellenlängen $\lambda$ und der theoretische Verlauf
+				$\lambda \mapsto \eps_\text{Ag}$.}
+	\label{fig:permitti}
+\end{figure}
 
 Mithilfe der Gleichungen \eqref{eq:r012}, \eqref{eq:permiag}, \eqref{eq:permiglas} und
 \eqref{eq:lichtprojdisp} kann die Reflektivität $R$ wieder als Funktion des Einfallswinkels
@@ -151,18 +166,13 @@ Außerdem kennen wir mit der Näherungsformel \eqref{eq:permiag} die theoretischen
 Verläufe von $\lambda \mapsto \Re (\eps_\text{Ag})$ und
 $\lambda \mapsto \Im (\eps_\text{Ag})$.
 
-\begin{figure}[!h]
-	\subfigure[Realteil der Permittivität]{
-    	\includegraphics[width=0.5\textwidth]{permi-re.pdf}
-	}
-	\subfigure[Imaginärteil der Permittivität]{
-    	\includegraphics[width=0.5\textwidth]{permi-im.pdf}
-	}
-	\caption{Experimentell bestimmte Werte für $\eps_\text{Ag}$ zu verschiedenen
-			Wellenlängen $\lambda$ und theoretischer Verlauf
-				$\lambda \mapsto \eps_\text{Ag}$.}
-	\label{fig:permitti}
-\end{figure}
+Sowohl die experimentellen Ergebnisse als auch der theoretische Verlauf sind in Abbildung
+\ref{fig:permitti} dargestellt.
+
+Man erkennt eine gewisse korrelierte Abweichung der Messpunkte von der theoretischen
+Kurve, was auf einen systematischen Fehler hindeutet. Dieser könnte durch leichte
+Verunreinigung oder Oxidation der verwendeten Probe verursacht sein.
+\clearpage
 
 \subsection{Dispersionsrelation}
 
@@ -206,10 +216,11 @@ Gittervektoren zurück- bzw. vorgefaltet) dargestellt sind.
 	\label{fig:gitterdisp}
 \end{figure}
 
-Man kann sehen, dass es eine leichte korrelierte Abweichung der experimentellen Werte von
+Man kann sehen, dass es hier, ähnlich wie oben, eine leichte korrelierte Abweichung der
+experimentellen Werte von
 den theoretischen gibt. Bei unseren Berechnungen sind wir von einer Gitterprobe bestehend aus einer
 Silberschichtgitterstruktur ausgegangen und haben dementsprechend
-die Permittivität von Silber/Luft verwendet. Zur vereinfachten Produktion wurde aber ein
+die Permittivitäten von Silber und Luft verwendet. Zur vereinfachten Produktion wurde aber ein
 Kunststoff verwendet, der natürlich eine Abweichung in 
 der Permittivität hervorruft und damit auch eine systematische Fehlerquelle in den Messungen sein
 kann.

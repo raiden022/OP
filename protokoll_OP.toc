@@ -9,7 +9,12 @@
 \contentsline {section}{\numberline {2.1}Oberfl\"achenplasmonen auf einer glatten Probe}{8}
 \contentsline {section}{\numberline {2.2}Oberfl\"achenplasmonen auf einer gittermodulierten Probe}{8}
 \contentsline {chapter}{\numberline {3}Auswertung}{9}
-\contentsline {section}{\numberline {3.1}Kalibrierung}{9}
-\contentsline {chapter}{\numberline {4}}{13}
-\contentsline {section}{\numberline {4.1}}{13}
-\contentsline {chapter}{Literaturverzeichnis}{14}
+\contentsline {section}{\numberline {3.1}Winkelkalibrierung}{9}
+\contentsline {section}{\numberline {3.2}Oberfl\"achenplasmonen in glatten Silberfilmen}{12}
+\contentsline {subsection}{\numberline {3.2.1}Verschiedene Probendicken}{12}
+\contentsline {subsection}{\numberline {3.2.2}Permittivit\"at von Silber}{13}
+\contentsline {subsection}{\numberline {3.2.3}Dispersionsrelation}{15}
+\contentsline {section}{\numberline {3.3}Oberfl\"achenplasmonen in einer gittermodulierten Silberprobe}{15}
+\contentsline {chapter}{\numberline {4}}{17}
+\contentsline {section}{\numberline {4.1}}{17}
+\contentsline {chapter}{Literaturverzeichnis}{18}

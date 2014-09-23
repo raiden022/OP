@@ -1,6 +1,6 @@
 \chapter{Auswertung}
 
-\section{Kalibrierung}
+\section{Winkelkalibrierung}
 
 Wir messen am Rotationstisch jeweils den Winkel $\alpha$, der mit dem wahren
 Einfallswinkel $\theta$ des Lichts auf die Probe wie folgt zusammenhängt:
@@ -68,7 +68,116 @@ $\lambda$ [nm]& $\theta_\text{tot}$ [°] & $\alpha_\text{tot}$ [°] &$\theta_{0}$ 
 \hline
 600 & 43,30 &590,19 &503,73\cellcolor{dunkelgrau}\\
 \hline
-\end{tabular}\caption{guck ma diese tabelle}\label{tab:totref}
+\end{tabular}\caption{Winkelangabe $\alpha_\text{tot}$ des
+	 	Rotationstisches bei Totalreflexion, Kalibrierungskonstante $\theta_{0}$
+		bezüglich des theoretischen Totalreflexionswinkels und der damit berechnete
+		gemessene Totalreflexionswinkel $\theta_\text{tot}$.} \label{tab:totref}
 \end{table}
 
-Der Offset, den wir ab nun berücksichtigen werden, lautet dann: $\theta_{0}= (503,74 \pm 0,02)$°
+Die mittlere Kalibrierungskonstante, die wir ab nun berücksichtigen werden, lautet dann:
+$\theta_{0}= (503,74 \pm 0,02)$°
+
+\section{Oberflächenplasmonen in glatten Silberfilmen}
+
+\subsection{Verschiedene Probendicken}
+
+\begin{figure}[!h]
+    \includegraphics[width=1\textwidth]{ag-dicken.pdf}
+	\caption{Gemessene Reflektivitäten $R$ in Abhängigkeit des Einfallswinkels
+				$\theta$ bei verschiedenen Ag-Probendicken $d$.}
+	\label{fig:agdicken}
+\end{figure}
+
+In Abbildung \ref{fig:agdicken} sind unsere Messdaten der Reflektivitäten bei verschiedenen
+Dicken $d$ der Silberschicht dargestellt. Die Wellenlänge $\lambda$ ist jeweils 550nm.
+
+Mithilfe der Gleichungen \eqref{eq:r012}, \eqref{eq:permiag}, \eqref{eq:permiglas} und
+\eqref{eq:lichtprojdisp} kann die Reflektivität $R$ als Funktion des Einfallswinkels
+$\theta$ in Abhängigkeit des Parameters $d$ auch theoretisch berechnet werden.
+
+Für jede der sechs Silberproben verschiedener Dicke machen wir einen Fit dieser
+Funktion an die Messdaten zur Bestimmung des Parameters $d$. Die Ergebnisse sind
+in Tabelle \ref{tab:agdicken} dargestellt.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{| >{$}c<{$} >{$}c<{$} |}
+\hline
+d_\text{nom}\text{ [nm]}		&	 d\text{ [nm]}	\\ [0.2ex]
+\hline\hline
+20		&		20,00			\\
+30		&		30,89			\\
+40		&		42,66			\\
+50		&		62,44			\\
+60		&		78,60			\\
+70		&		87,54			\\
+\hline
+\end{tabular}
+\caption{Angegebene Probendicken $d_\text{nom}$ und
+			experimentell bestimmte Probendicken $d$}	\label{tab:agdicken}
+\end{table}
+
+\subsection{Permittivität von Silber}
+
+In Abbildung \ref{fig:festeagdicke} sind unsere Messdaten der Reflektivitäten bei
+verschiedenen Wellenlängen $\lambda$ des reflektierten Lichts und fester Probendicke
+$d=40$nm dargestellt.
+
+\begin{figure}[]
+    \includegraphics[width=1\textwidth]{feste-ag-dicke.pdf}
+	\caption{Gemessene Reflektivitäten $R$ in Abhängigkeit des Einfallswinkels
+				$\theta$ bei verschiedenen Wellenlängen $\lambda$ einfallenden
+				Lichts.}
+	\label{fig:festeagdicke}
+\end{figure}
+
+\clearpage
+
+Mithilfe der Gleichungen \eqref{eq:r012}, \eqref{eq:permiag}, \eqref{eq:permiglas} und
+\eqref{eq:lichtprojdisp} kann die Reflektivität $R$ wieder als Funktion des Einfallswinkels
+$\theta$, diesmal jedoch in Abhängigkeit des komplexen Parameters $\eps_\text{Ag}$
+theoretisch berechnet werden.
+
+Wir machen also für jede Messung mit einer bestimmten Wellenlänge einen Fit dieser
+Funktion an die Messdaten zur Bestimmung der Parameter $\Re (\eps_\text{Ag})$ und
+$\Im (\eps_\text{Ag})$.
+
+Außerdem kennen wir mit der Näherungsformel \eqref{eq:permiag} die theoretischen
+Verläufe von $\lambda \mapsto \Re (\eps_\text{Ag})$ und
+$\lambda \mapsto \Im (\eps_\text{Ag})$.
+
+\begin{figure}[!h]
+	\subfigure[Realteil der Permittivität]{
+    	\includegraphics[width=0.5\textwidth]{permi-re.pdf}
+	}
+	\subfigure[Imaginärteil der Permittivität]{
+    	\includegraphics[width=0.5\textwidth]{permi-im.pdf}
+	}
+	\caption{Experimentell bestimmte Werte für $\eps_\text{Ag}$ zu verschiedenen
+			Wellenlängen $\lambda$ und theoretischer Verlauf
+				$\lambda \mapsto \eps_\text{Ag}$.}
+	\label{fig:permitti}
+\end{figure}
+
+\subsection{Dispersionsrelation}
+
+Die Minima der Reflektivität in den Messkurven in Abbildung \ref{fig:festeagdicke}
+entsprechen den Resonanzen der Oberflächenplasmonen. Wir gehen also davon aus,
+dass die entsprechende Kombination von Einfallswinkel $\theta$ und Wellenlänge
+$\lambda$ des einfallenden Lichts, die mit \eqref{eq:lichtprojdisp} einer Kombination
+von Impuls $k$
+und Kreisfrequenz $\omega$ der Oberflächenplasmonen entspricht,
+ein Punkt der Dispersionsrelation der Plasmonen ist.
+
+Die so experimentell bestimmten Punkte der Oberflächenplasmonendispersion sind
+in Abbildung \ref{fig:glattdisp} zusammen mit dem theoretischen Verlauf nach
+\eqref{eq:opdisp} dargestellt.
+
+\begin{figure}[!h]
+    \includegraphics[width=1\textwidth]{glattdisp.pdf}
+	\caption{Experimentell bestimmte Punkte und theoretischer Verlauf der
+				Oberflächenplasmonendispersion.}
+	\label{fig:glattdisp}
+\end{figure}
+
+\section{Oberflächenplasmonen in einer gittermodulierten Silberprobe}

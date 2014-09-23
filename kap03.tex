@@ -40,7 +40,7 @@ der Frequenzabhängigkeit der Permittivität von Glas $\eps_{Glas}(\lambda)$ zusam
 \begin{figure}[h]
     \includegraphics[width=1\textwidth]{linreg-totref-525nm.png}
 	\caption{Gemessene Reflektivität $R$ in Abhängigkeit der zu kalibrierenden Winkelangabe
-				des Rotationstisches $2\theta+\theta_0$ bei Wellenlänge
+				des Rotationstisches $(2\theta+\theta_0)$ bei Wellenlänge
 				$\lambda=525\text{nm}$. In Rot die linearen Regressionen
 				zur Bestimmung des Totalreflexionswinkels.}
 	\label{fig:linreg}
@@ -117,7 +117,9 @@ d_\text{nom}\text{ [nm]}		&	 d\text{ [nm]}	\\ [0.2ex]
 			experimentell bestimmte Probendicken $d$}	\label{tab:agdicken}
 \end{table}
 
-An den Silberproben waren viele schwarze Flecke zu sehen, die auf eine starke Oxidation der Probe hinweist. Da wir die 4. Gruppe waren,
+Für größere Schichtdicken weichen die von uns ermittelten Werte zunehmend von Werten, die
+auf den Packungen der Proben standen, ab.
+An den Silberproben waren viele schwarze Flecke zu sehen, die auf eine starke Oxidation der Probe hinweist. Da wir die vierte Gruppe waren,
 die diese Probe verwendet haben, könnte eine starke Verschmutzung die Abweichung der Schichtdicke vom angegebenen Wert erklären. 
 
 \subsection{Permittivität von Silber}
@@ -172,10 +174,6 @@ von Impuls $k$
 und Kreisfrequenz $\omega$ der Oberflächenplasmonen entspricht,
 ein Punkt der Dispersionsrelation der Plasmonen ist.
 
-Die so experimentell bestimmten Punkte der Oberflächenplasmonendispersion sind
-in Abbildung \ref{fig:glattdisp} zusammen mit dem theoretischen Verlauf nach
-\eqref{eq:opdisp} dargestellt.
-
 \begin{figure}[!h]
     \includegraphics[width=1\textwidth]{glattdisp.pdf}
 	\caption{Experimentell bestimmte Punkte und theoretischer Verlauf der
@@ -183,9 +181,35 @@ in Abbildung \ref{fig:glattdisp} zusammen mit dem theoretischen Verlauf nach
 	\label{fig:glattdisp}
 \end{figure}
 
+Die so experimentell bestimmten Punkte der Oberflächenplasmonendispersion sind
+in Abbildung \ref{fig:glattdisp} zusammen mit dem theoretischen Verlauf nach
+\eqref{eq:opdisp} dargestellt.
+
+\clearpage
+
 \section{Oberflächenplasmonen in einer gittermodulierten Silberprobe}
 
-Bei unseren Berechnungen sind wir von einer Gitterprobe bestehend aus einer Silberschichtgitterstruktur ausgegangen und haben dementsprechend
-die Permitivität von Silber/Luft verwendet. Zur vereinfachten Produktion wurde aber ein Kunststoff verwendet, der natürlich eine Abweichung in 
-der Permitivität hervorruft und damit auch eine Fehlerquelle in den Messungen ist.
+Für die Gitterkonstante der Probe erhalten wir $a=698$ nm, womit wir für die Oberflächenplasmonen
+eine Brillouinzonengröße von $1,776\ \frac{\text{eV}}{\hbar c}$ erwarten.
 
+Wie oben erhalten wir aus den Minima der Reflektivitäten bei verschiedenen Wellenlängen
+einfallenden Lichts einzelne Punkte des Dispersionsgraphen, welche in Abbildung
+\ref{fig:gitterdisp} zusammen mit der theoretischen Dispersionrelation (zum Teil um reziproke
+Gittervektoren zurück- bzw. vorgefaltet) dargestellt sind.
+
+\begin{figure}[!h]
+    \includegraphics[width=1\textwidth]{gitterdisp.pdf}
+	\caption{Experimentell bestimmte Punkte und theoretischer Verlauf der
+				Oberflächenplasmonendispersion in der gittermodulierten Probe.
+				Gestrichelt dargestellt ist der Brillouinzonenrand ermittelt aus der
+				gemessenen Gitterkonstanten.}
+	\label{fig:gitterdisp}
+\end{figure}
+
+Man kann sehen, dass es eine leichte korrelierte Abweichung der experimentellen Werte von
+den theoretischen gibt. Bei unseren Berechnungen sind wir von einer Gitterprobe bestehend aus einer
+Silberschichtgitterstruktur ausgegangen und haben dementsprechend
+die Permittivität von Silber/Luft verwendet. Zur vereinfachten Produktion wurde aber ein
+Kunststoff verwendet, der natürlich eine Abweichung in 
+der Permittivität hervorruft und damit auch eine systematische Fehlerquelle in den Messungen sein
+kann.

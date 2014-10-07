@@ -20,20 +20,20 @@ in der Grenzfläche zwischen einem Metall und einem Isolator entsprechen. Wie in
 Abbildung \ref{fig:op} illustriert, führen diese nahe der Grenzfläche auch zu dieser
 senkrechte Anteile des elektrischen Felds mit sich.
 
-\begin{figure}[ht]
-    \includegraphics[width=0.7\textwidth]{op-.pdf}
-	\caption{Oberflächenplasmonen in der Grenzschicht zwischen Metall und Luft}
+\begin{figure}[ht] \centering
+    \includegraphics[width=0.7\textwidth]{./op.png}
+	\caption{Oberflächenplasmonen in der Grenzschicht Metall--Dielektrikum}
 	\label{fig:op}
 \end{figure}
 
-Es gibt dann potentiell Anregungen von Oberflächenplasmonen durch
-bezüglich seiner Einfallsebene zur Grenzfläche
-$p$-polarisiertem Licht, mit einem $k_\text{OP}$--Vektor gleich der zur Grenzfläche
-parallelen Komponente des $k$--Vektors von Licht. Die Resonanzen dieser Anregung
-geschehen bei Übereinstimmung von sowohl Frequenz $\omega$ als auch Wellenlänge
-$\frac{2\pi}{k}$ des zur Grenzfläche
-parallelen Anteils des Lichts und der Oberflächenplasmonen, also bei Schnittpunkten
-der jeweiligen Dispersionrelationen zwischen $\omega$ und $k$.
+Es gibt dann potentiell Anregungen von Oberflächenplasmonen durch $p$-polarisiertes Licht,
+das auf die Grenzfläche einfällt. Die Oberflächenplasmonen haben dabei einen
+$k_\text{OP}$--Vektor gleich der zur Grenzfläche
+parallelen Komponente des $k$--Vektors des Lichtes. Die Resonanzen dieser Anregung
+geschehen bei Übereinstimmung von sowohl Frequenz $\omega$ (Energie) als auch Wellenvektor
+${k}$ (Impuls) des zur Grenzfläche
+parallelen Anteils des Lichts und der Oberflächenplasmonen. Diese finden bei Schnittpunkten
+der jeweiligen Dispersionrelationen zwischen $\omega$ und $k$ statt.
 
 Die Anregung von Oberflächenplasmonen zeigt sich dadurch, dass die Reflektivität der
 entsprechenden Oberfläche für das zum Anregen verwendete Licht, deutlich sinkt.
@@ -43,7 +43,7 @@ entsprechenden Oberfläche für das zum Anregen verwendete Licht, deutlich sinkt.
 Die Dispersionsrelation von Oberflächenplasmonen in der Grenzschicht zwischen einem
 Metall (2) mit Permittivität $\eps_2$ und einem Dielektrikum (1) mit Permittivität
 $\eps_1$ ist
-\begin{equation}	\label{eq:opdisp}
+\begin{equation} \label{eq:opdisp}
 	k = \frac{\omega}{c}\sqrt{\frac{\eps_1\eps_2}{\eps_1+\eps_2}}
 \end{equation}
 
@@ -93,16 +93,30 @@ einem Metall und einem Dielektrikum. Daher können auf diese Weise durch auf
 Metall schräg einfallendes Licht keine Oberflächenplasmonen angeregt werden.
 
 Es gibt jedoch Schnittpunkte zwischen den Dispersionsrelationen von Licht in Glas
-und von Oberflächenplasmonen in einer Silber-Luft-Grenzfläche.
+und von Oberflächenplasmonen in einer Silber-Luft-Grenzfläche, siehe Abbildung
+\ref{fig:dispschnitt} (a).
 Dies kann mithilfe des Effekts der
 frustrierten Totalreflexion für die Anregung von Oberflächenplasmonen durch Licht
 ausgenutzt werden.
+
+\begin{figure}[ht] \centering
+	\subfigure[]{
+    \includegraphics[width=0.4\textwidth]{./dispschnitt.png}
+	}
+	\subfigure[]{
+    \includegraphics[width=0.4\textwidth]{./evan.png}
+	}
+	\caption{(a) Dispersionsrelationen von Oberflächenplasmonen und Licht in verschiedenen Medien.
+			(b) Frustrierte Totalreflexion.}
+	\label{fig:dispschnitt}
+\end{figure}
 
 Hierzu wird Licht an einer Grenzfläche von Glas zu einer sehr dünnen Silberschicht,
 auf die Luft folgt, totalreflektiert. An der Grenze vom Silber zur Luft bleibt dann
 ein nichtverschwindender Anteil der
 evaneszenten Welle von der Totalreflexion übrig, der Oberflächenplasmonen in
-der Silber-Luft-Grenze anregen kann. Hierfür sind Schnittpunkte der
+der Silber-Luft-Grenze anregen kann. Dies ist in Abbildung \ref{fig:dispschnitt} illustriert.
+Zur Anregung sind Schnittpunkte der
 Dispersionsrelationen des parallelen Anteils von Licht in Glas zur Grenzfläche
 zu Silber und von Oberflächenplasmonen in der Silber-Luft-Grenze gesucht.
 
@@ -128,15 +142,20 @@ Die Reflektivität an der Glas(0)-Silber(1)-Luft(2)-Schicht ist dann $R=|r_{012}|
 
 \section{Plasmonen in einer gittermodulierten Silberoberfläche}
 
-Oberflächenplasmonen in einer Silberfläche mit in einer Richtung periodisch
-modulierter Oberfläche mit der Gitterkonstanten $a$ haben die Eigenschaft, dass
-ihre $k$-Vektoren in die Richtung der Modulation, die sich um ein ganzzahliges
-Vielfaches des reziproken Gittervektors $\frac{2\pi}a$ unterscheiden, identifiziert
-werden können und daher auch durch die Dispersionsrelation den gleichen Frequenzen
-$\omega$ zugeordnet sind.
+Wir betrachten nun Oberflächenplasmonen in einer Silberfläche mit in einer Richtung periodisch
+modulierter Oberfläche mit der Gitterkonstanten $a$. Diese haben die Eigenschaft,
+dass $k$-Vektoren, die sich in die Richtung der Modulation um einen
+reziproken Gittervektor $n\frac{2\pi}a, n\in\NN$ unterscheiden, identifiziert
+werden können. Daher werden diese durch die Dispersionsrelation den gleichen Frequenzen
+$\omega$ zugeordnet.
+\begin{figure}[ht] \centering
+    \includegraphics[width=0.7\textwidth]{./gitterdisp.png}
+	\caption{Dispersionsrelation von Gitter-Oberflächenplasmonen}
+	\label{fig:gitterdisppng}
+\end{figure}
 
 Hierdurch erhält man Schnittpunkte der Dispersionsrelationen von Licht in Luft (bzw.
-seiner Projektion auf die Gitteroberfläche) und der Oberflächenplasmonen einer
-periodisch modulierten Silberfläche (unter Anderem durch Verschieben der wurzelförmigen
+seiner Projektion auf die Gitteroberfläche) und der Oberflächenplasmonen einer Gitter-Silberprobe.
+Hierzu verschiebt man z.B. die wurzelförmige
 Dispersion gewöhnlicher Oberflächenplasmonen nach \eqref{eq:opdisp}
-um $-\frac{2\pi}{a}$).
+um $-\frac{2\pi}{a}$). Dies ist in Abbildung \ref{fig:gitterdisppng} zu sehen.

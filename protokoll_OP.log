@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  24 SEP 2014 14:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  7 OCT 2014 13:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -564,7 +564,7 @@ Package scrkbase Info: You've told me to extend the font selection of the
 \openout2 = `command.aux'.
 
 (./command.tex) (./protokoll_OP.aux (./titlepage.aux) (./kap01.aux)
-(./kap02.aux) (./kap03.aux) (./literatur.aux))
+(./kap02.aux) (./kap03.aux) (./kap04.aux) (./literatur.aux))
 \openout1 = `protokoll_OP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -794,41 +794,76 @@ Overfull \hbox (7.54242pt too wide) in paragraph at lines 18--22
 nen\T1/futs/m/n/12 , die La-dungs-dich-te-schwan-kun-gen in der Grenz-
  []
 
-<op-.pdf, id=14, 600.2425pt x 390.45876pt>
-File: op-.pdf Graphic file (type pdf)
- <use op-.pdf>
-Package pdftex.def Info: op-.pdf used on input line 24.
-(pdftex.def)             Requested size: 308.71106pt x 200.82336pt.
+<./op.png, id=14, 626.34pt x 486.81876pt>
+File: ./op.png Graphic file (type png)
+ <use ./op.png>
+Package pdftex.def Info: ./op.png used on input line 24.
+(pdftex.def)             Requested size: 308.71106pt x 239.94722pt.
  [4
 
 
- <./op-.pdf>]
-[5]) [6]
+] [5 <./op.png>]
+Overfull \hbox (0.72992pt too wide) in paragraph at lines 95--101
+\T1/futs/m/n/12 von Ober-flä-chen-plas-mo-nen in ei-ner Silber-Luft-Grenzfläche
+, sie-he Ab-bil-dung 1.2[] (a). Dies
+ []
+
+<./dispschnitt.png, id=25, 574.145pt x 503.8825pt>
+File: ./dispschnitt.png Graphic file (type png)
+ <use ./dispschnitt.png>
+Package pdftex.def Info: ./dispschnitt.png used on input line 105.
+(pdftex.def)             Requested size: 176.40439pt x 154.81032pt.
+
+<./evan.png, id=26, 565.11125pt x 291.0875pt>
+File: ./evan.png Graphic file (type png)
+ <use ./evan.png>
+Package pdftex.def Info: ./evan.png used on input line 108.
+(pdftex.def)             Requested size: 176.40439pt x 90.86246pt.
+ [6 <./dispschnitt.png> <./evan.png>] <./gitterdisp.png, id=30, 720.6925pt x 56
+6.115pt>
+File: ./gitterdisp.png Graphic file (type png)
+
+<use ./gitterdisp.png>
+Package pdftex.def Info: ./gitterdisp.png used on input line 152.
+(pdftex.def)             Requested size: 308.71106pt x 242.49178pt.
+)
+Overfull \hbox (3.20126pt too wide) in paragraph at lines 157--49
+\T1/futs/m/n/12 Silberprobe. Hier-zu ver-schiebt man z.B. die wur-zel-för-mi-ge
+ Di-sper-si-on ge-wöhn-li-cher Ober-
+ []
+
+[7 <./gitterdisp.png>]
 \openout2 = `kap02.aux'.
 
  (./kap02.tex
 Kapitel 2.
-<op-aufbau.png, id=38, 983.675pt x 728.7225pt>
+<op-aufbau.png, id=36, 983.675pt x 728.7225pt>
 File: op-aufbau.png Graphic file (type png)
  <use op-aufbau.png>
 Package pdftex.def Info: op-aufbau.png used on input line 3.
 (pdftex.def)             Requested size: 441.01773pt x 326.71008pt.
- [7
+ [8
 
 
 
- <./op-aufbau.png>]) [8]
+ <./op-aufbau.png>]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 28.
+
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+))
+[9]
 \openout2 = `kap03.aux'.
 
  (./kap03.tex
 Kapitel 3.
-<totalreflexionen.pdf, id=46, 361.35pt x 252.945pt>
+<totalreflexionen.pdf, id=43, 361.35pt x 252.945pt>
 File: totalreflexionen.pdf Graphic file (type pdf)
  <use totalreflexionen.pdf>
 Package pdftex.def Info: totalreflexionen.pdf used on input line 30.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
-<linreg-totref-525nm.png, id=47, 760.2804pt x 542.7477pt>
+<linreg-totref-525nm.png, id=44, 760.2804pt x 542.7477pt>
 File: linreg-totref-525nm.png Graphic file (type png)
 
 <use linreg-totref-525nm.png>
@@ -838,20 +873,15 @@ Package pdftex.def Info: linreg-totref-525nm.png used on input line 38.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 60.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9
+[10
 
 
 
-] [10 <./totalreflexionen.pdf>] [11 <./linreg-totref-525nm.png>]
-<ag-dicken.pdf, id=70, 361.35pt x 252.945pt>
+] [11 <./totalreflexionen.pdf>] [12 <./linreg-totref-525nm.png>]
+<ag-dicken.pdf, id=67, 361.35pt x 252.945pt>
 File: ag-dicken.pdf Graphic file (type pdf)
  <use ag-dicken.pdf>
 Package pdftex.def Info: ag-dicken.pdf used on input line 87.
@@ -860,7 +890,7 @@ Package pdftex.def Info: ag-dicken.pdf used on input line 87.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<feste-ag-dicke.pdf, id=71, 361.35pt x 252.945pt>
+<feste-ag-dicke.pdf, id=68, 361.35pt x 252.945pt>
 File: feste-ag-dicke.pdf Graphic file (type pdf)
  <use feste-ag-dicke.pdf>
 Package pdftex.def Info: feste-ag-dicke.pdf used on input line 135.
@@ -868,15 +898,15 @@ Package pdftex.def Info: feste-ag-dicke.pdf used on input line 135.
 
 Underfull \vbox (badness 1237) has occurred while \output is active []
 
- [12
+ [13
 
- <./ag-dicken.pdf>] <permi-re.pdf, id=86, 361.35pt x 252.945pt>
+ <./ag-dicken.pdf>] <permi-re.pdf, id=84, 361.35pt x 252.945pt>
 File: permi-re.pdf Graphic file (type pdf)
  <use permi-re.pdf>
 Package pdftex.def Info: permi-re.pdf used on input line 145.
 (pdftex.def)             Requested size: 220.50887pt x 154.35797pt.
 
-<permi-im.pdf, id=87, 361.35pt x 252.945pt>
+<permi-im.pdf, id=85, 361.35pt x 252.945pt>
 File: permi-im.pdf Graphic file (type pdf)
  <use permi-im.pdf>
 Package pdftex.def Info: permi-im.pdf used on input line 148.
@@ -889,8 +919,8 @@ Overfull \hbox (11.81998pt too wide) in paragraph at lines 145--151
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14 <./feste-ag-dicke.pdf> <./permi-re.pdf> <./permi-im.pdf>]
-<glattdisp.pdf, id=124, 361.35pt x 252.945pt>
+[14] [15 <./feste-ag-dicke.pdf> <./permi-re.pdf> <./permi-im.pdf>]
+<glattdisp.pdf, id=121, 361.35pt x 252.945pt>
 File: glattdisp.pdf Graphic file (type pdf)
  <use glattdisp.pdf>
 Package pdftex.def Info: glattdisp.pdf used on input line 183.
@@ -901,51 +931,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--185
 uf der
  []
 
-[15
+[16
 
- <./glattdisp.pdf>] <gitterdisp.pdf, id=137, 361.35pt x 252.945pt>
+ <./glattdisp.pdf>] <./gitter.pdf, id=134, 361.35pt x 252.945pt>
+File: ./gitter.pdf Graphic file (type pdf)
+
+<use ./gitter.pdf>
+Package pdftex.def Info: ./gitter.pdf used on input line 204.
+(pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
+ <gitterdisp.pdf, id=135, 361.35pt x 252.945pt>
 File: gitterdisp.pdf Graphic file (type pdf)
 
 <use gitterdisp.pdf>
-Package pdftex.def Info: gitterdisp.pdf used on input line 206.
+Package pdftex.def Info: gitterdisp.pdf used on input line 215.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 210--210
+Underfull \hbox (badness 2547) in paragraph at lines 219--219
 \T1/futs/m/n/12 dar-ge-stellt ist der Bril-louin-zo-nen-rand er-mit-telt aus de
 r ge-mes-se-nen
  []
 
-) [16
 
- <./gitterdisp.pdf>]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [17
+
+ <./gitter.pdf>] [18 <./gitterdisp.pdf>]
+\openout2 = `kap04.aux'.
+
+ (./kap04.tex
+Kapitel 4.
+) [19
+
+
+
+]
 \openout2 = `literatur.aux'.
 
- (./literatur.tex) [17
+ (./literatur.tex) [20
 
 
 
-] (./protokoll_OP.aux
-(./titlepage.aux) (./kap01.aux) (./kap02.aux) (./kap03.aux) (./literatur.aux)) 
-) 
+] (./protokoll_OP.aux (./titlepage.aux)
+(./kap01.aux) (./kap02.aux) (./kap03.aux) (./kap04.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 6410 strings out of 493633
- 91082 string characters out of 3143378
- 175686 words of memory out of 3000000
- 9473 multiletter control sequences out of 15000+200000
+ 6443 strings out of 493633
+ 91592 string characters out of 3143378
+ 176051 words of memory out of 3000000
+ 9496 multiletter control sequences out of 15000+200000
  88036 words of font info for 113 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,14n,47p,412b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/t
-exlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
-011/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on protokoll_OP.pdf (17 pages, 865850 bytes).
+{/u
+sr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2011/texmf-di
+st/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on protokoll_OP.pdf (20 pages, 1658931 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 195 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

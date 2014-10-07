@@ -1,18 +1,19 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Theoretische Grundlagen}{4}
 \contentsline {section}{\numberline {1.1}Oberfl\"achenplasmonen}{4}
-\contentsline {section}{\numberline {1.2}Dispersionsrelationen}{5}
+\contentsline {section}{\numberline {1.2}Dispersionsrelationen}{4}
 \contentsline {section}{\numberline {1.3}Permittivit\"aten}{5}
 \contentsline {section}{\numberline {1.4}Plasmonen in einer glatten Silberoberfl\"ache}{6}
-\contentsline {section}{\numberline {1.5}Plasmonen in einer gittermodulierten Silberoberfl\"ache}{6}
-\contentsline {chapter}{\numberline {2}Versuchsaufbau und -durchf\"uhrung}{7}
-\contentsline {section}{\numberline {2.1}Oberfl\"achenplasmonen auf einer glatten Probe}{8}
-\contentsline {section}{\numberline {2.2}Oberfl\"achenplasmonen auf einer gittermodulierten Probe}{8}
-\contentsline {chapter}{\numberline {3}Auswertung}{9}
-\contentsline {section}{\numberline {3.1}Winkelkalibrierung}{9}
-\contentsline {section}{\numberline {3.2}Oberfl\"achenplasmonen in glatten Silberfilmen}{12}
-\contentsline {subsection}{\numberline {3.2.1}Verschiedene Probendicken}{12}
-\contentsline {subsection}{\numberline {3.2.2}Permittivit\"at von Silber}{13}
-\contentsline {subsection}{\numberline {3.2.3}Dispersionsrelation}{15}
-\contentsline {section}{\numberline {3.3}Oberfl\"achenplasmonen in einer gittermodulierten Silberprobe}{16}
-\contentsline {chapter}{Literaturverzeichnis}{17}
+\contentsline {section}{\numberline {1.5}Plasmonen in einer gittermodulierten Silberoberfl\"ache}{7}
+\contentsline {chapter}{\numberline {2}Versuchsaufbau und -durchf\"uhrung}{8}
+\contentsline {section}{\numberline {2.1}Oberfl\"achenplasmonen auf einer glatten Probe}{9}
+\contentsline {section}{\numberline {2.2}Oberfl\"achenplasmonen auf einer gittermodulierten Probe}{9}
+\contentsline {chapter}{\numberline {3}Auswertung}{10}
+\contentsline {section}{\numberline {3.1}Winkelkalibrierung}{10}
+\contentsline {section}{\numberline {3.2}Oberfl\"achenplasmonen in glatten Silberfilmen}{13}
+\contentsline {subsection}{\numberline {3.2.1}Verschiedene Probendicken}{13}
+\contentsline {subsection}{\numberline {3.2.2}Permittivit\"at von Silber}{14}
+\contentsline {subsection}{\numberline {3.2.3}Dispersionsrelation}{16}
+\contentsline {section}{\numberline {3.3}Oberfl\"achenplasmonen in einer gittermodulierten Silberprobe}{17}
+\contentsline {chapter}{\numberline {4}Zusammenfassung}{19}
+\contentsline {chapter}{Literaturverzeichnis}{20}
